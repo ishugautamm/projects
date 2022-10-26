@@ -1,0 +1,22 @@
+body{
+  background-color: yellow;
+}
+.a{
+  background-color: brown;
+  padding: 20px;
+  margin: 20px;
+  border: solid black 5px;
+
+}
+.b{
+  background-color: cyan;
+  padding: 20px;
+  margin: 20px;
+  border: solid black 5px;
+}
+.c{
+  background-color: pink;
+  padding: 20px;
+  margin: 20px;
+  border: solid black 5px;
+}

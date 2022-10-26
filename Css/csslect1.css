@@ -1,0 +1,19 @@
+ body{
+        background-color: lightgoldenrodyellow;
+    }
+    h1{
+        color: green;
+        margin-left: 40px;
+        border: solid black;
+        padding: 30px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    p{
+        color: violet;
+        margin-left: 40px;
+        border: solid royalblue;
+        text-align: right;
+        padding: 20px;
+        border-spacing: 12in;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }

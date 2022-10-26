@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<head>
+<meta charset="UTF-8">
+<title>HTML basic tags</title>
+</head>
+<body>
+    <p> Hello World!</p> <!--Using <p> tag different times will help to break line-->
+    <p> Hello students, welcome to the first class</p> <!--No line will break, have to use <br> tag-->
+    <h2>My First Web Page</h2>
+    <center><h1>Writing in center</h1></center> <!--Check for right align-->
+    <a href="https://www.google.com">This is how link is pasted and opened in same tab</a>
+     <br>
+    <a href="https://www.google.com" target="_blank">This is how link is pasted and opened in another tab</a> <br>
+    <!--Pasting links of photos from folder--> 
+    <img src="C:\Users\igaut\OneDrive\Desktop\sample\Images\ishu.png" alt="google.com" width="200" height="250"><br>
+     <!--Pasting links of photos from the internet--> 
+    <a href="https://g.foolcdn.com/editorial/images/110013/google.png"> Check to see photo</a><br>
+    <!--Pasting links in photos-->
+    <p>Pasting links in photos</p><br>
+    <a href="https://www.google.com/" target="_blank"> <img alt="GOOGLE" src="C:\Users\igaut\OneDrive\Desktop\sample\Images\google.jpg" width="200" height="200"> </a><br>
+    <h1>Unordered list(bullets)</h1>
+    <ul>
+        <li>Test Cricket</li>
+        <li>ODI Cricket</li>
+        <li>T20 Cricket</li>
+    </ul>
+    <h1>Ordered list(numbers)</h1>
+    <ol start="10"> <!--To Start From 10, if pressed a then it will start with a-->
+        <li>Test Cricket</li>
+        <li>ODI Cricket</li>
+        <li>T20 Cricket</li>
+    </ol> <br>
+    <h1>Definition list</h1> 
+   <dl> <dt>Rohit</dt> <!-- <dl> contains definition title(<dt>) and description(<dd)-->
+    <dd>Right handed batsman</dd>
+    <dt>Boult</dt>
+    <dd>Left arm bowler</dd> </body></dl>
+    <p>C + O<sub>2</sub> -> CO<sub>2</sub></p> <br>
+    <!--to change the shape of bullets in unordered list default is disk-->
+    <h1>Unordered list(All types of bullets)</h1>
+    <ul><!--Unrdered list-->
+        <li type="square">Test Cricket</li>
+        <li type="disk">ODI Cricket</li>
+        <li type="circle">T20 Cricket</li>
+    </ul> <br>
+    <nav> <!--defines a set of navigation links-->
+       <a href="https://www.google.com" target="_blank">GOOGLE</a> |
+       <a href="https://www.facebook.com">FACEBOOK</a> |
+       <a href="https://www.linkedin.com">LINKEDIN</a> |
+    </nav> <br>
+    <style>
+        table,
+        td,          
+        th {
+            border: 1px solid black; 
+        }
+        td,
+        th {
+            padding:10px;    
+        }
+        table{
+            border-spacing: 5px;
+        }
+    </style>
+    <table border="2"> <!--Border not in use in html-->
+        <caption><h1>Cricket Team</h1> </caption> <!--Caption gives heading to the table-->
+        <colgroup span="1" style="background:yellow"></colgroup> <!--span selects the number of columns which we want to colour-->
+        <colgroup span="1" style="background:green"></colgroup>
+        <tr>  <!--Table Row (Horizontal)-->
+        <th rowspan="3">IPL TEAMS <br><br>MI<br><br>RCB</th>  <!--One cell whose size can be changed accordingly to the other cells--> 
+        <th> PLAYER NAME</th> <!--Table Heading-->
+        <th> PLAYER TEAM</th>
+        <th> JERSEY NUMBER</th>
+        </tr>
+
+        <tr>
+            <td> ROHIT </td>   <!--Table Description-->
+            <td> INDIA </td>
+            <td> 45 </td>
+        </tr>
+   
+    <tr>
+        <td> KOHLI </td>   <!--Table Description-->
+        <td> INDIA </td>
+        <td> 20 </td>
+    </tr>
+    </table> <br>
+  <h1>Problem 1</h1> <br>
+  <table>
+    <tr> <!--Row1-->
+        <td>1</td>
+        <td colspan="3">2</td>
+    </tr>
+    <tr> <!--Row2-->
+      <td rowspan="3">3</td>
+      <td style="background:red">4</td>
+      <td style="background:red">5</td>
+      <td rowspan="2" style="background:yellow">6</td>
+    </tr>  
+    <tr>
+        <td style="background:red">7</td>
+        <td style="background:red">8</td>
+    </tr>  
+    <tr>
+        <td colspan="2" style="background:yellow">9</td>
+        <td style="background:yellow">10</td>
+    </tr>
+
+
+  </table>
+  
+</body>
+</html>

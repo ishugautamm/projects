@@ -1,0 +1,53 @@
+body{
+    background-image: url(ishu2.jpg); 
+     background-repeat: no-repeat;
+     background-size: 400%;
+     /* background-position: bottom right ; */
+     
+}
+#p{
+    color:  lime;
+    margin-left: 40px;
+    border: yellow;
+    padding: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 120%;
+    border-style: dashed;
+}
+.a{
+    color: lightblue;
+    margin-left: 40px;
+    border: solid royalblue;
+    text-align: right;
+    padding: 10px;
+    border-spacing: 12in;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-variant: small-caps; 
+    /* putting image inside */
+    background-image: url(google.jpg);
+    background-repeat: no-repeat;
+    background-size: 14%;
+    background-position: left;
+    
+}
+.b{
+    /* font-stretch: ultra-expanded;  */
+    text-align: left;
+    background-color: bisque;
+ 
+    
+}
+
+#a{color:aquamarine}
+#b{color: yellow;  text-align: center;  }
+
+#q{color: darkred;
+   text-align: center;}
+
+#c{
+    
+    border-style: dotted;
+    border: solid black;
+    
+
+}
